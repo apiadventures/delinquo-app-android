@@ -1,0 +1,23 @@
+<!-- From: file:/Users/mitchk09/workspace/personal/delinquo-app-android/delinquo/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="tv.twentyonemedia.delinquo">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+r
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+
+        <activity android:label="@string/app_name" android:name="tv.twentyonemedia.delinquo.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden|screenSize" android:label="@string/title_activity_browser" android:name="tv.twentyonemedia.delinquo.BrowserActivity" android:theme="@style/FullscreenTheme">
+        </activity>
+
+        <activity android:label="@string/title_activity_browse" android:name="tv.twentyonemedia.delinquo.BrowseActivity">
+        </activity>
+    </application>
+
+</manifest>

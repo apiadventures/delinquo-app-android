@@ -15,12 +15,6 @@ public class BrowseActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browse);
 
-        //WebView myWebView = (WebView) findViewById(R.id.webview);
-        //myWebView.loadUrl("http://delinquo.co.uk/projects");
-//        R.id.browser_label.t  browse_label.
-
-
-
         Intent iin = getIntent();
         Bundle b = iin.getExtras();
 
